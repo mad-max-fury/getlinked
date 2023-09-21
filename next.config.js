@@ -1,4 +1,9 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {}
+const nextConfig = {
 
-module.exports = nextConfig
+  images: {
+    domains: ["imgs.search.brave.com"], // Add the hostname here
+  },
+};
+
+module.exports = nextConfig;
